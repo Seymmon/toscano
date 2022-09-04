@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="conteiner">
+        <div id="divOperacao">
+            <select name="operacoes" id="operacoes">
+                <option value="" disabled selected>Chose your language</option>
+            </select><br>
+            <div id="divInputs">
+                <div id="divPrimeiroInput">
+                    <label for="primeiroInput">Primeiro valor</label><br>
+                    <input id="primeiroInput" class="inputValor" type="number"><br>
+                </div>
+                
+                <div id="divSegundoInput">
+                    <label for="segundoInput">Segundo valor</label><br>
+                    <input id="segundoInput" class="inputValor" type="number"><br>
+                </div>
+            </div>
+            <div class="clear"></div><br><br>      
+            <button id="teste">teste</button>
+        </div>
+        <div id="resultado"></div>
+    </div>
+    <script defer src="js/script.js"></script>
+</body>
+</html>
